@@ -1,0 +1,126 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  header, footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1, footer p {
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px 0px;
+    margin: 20px 0px;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #555;
+  }
+
+  .content-div-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-content img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 30px; /* Adjust the spacing between the image and the text */
+  }
+  
+  .about-content p {
+    font-size: 18px; /* Adjust the font size of the text */
+    line-height: 1.6;
+  }
+
+  /* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-content img {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
